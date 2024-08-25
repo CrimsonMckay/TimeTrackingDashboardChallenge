@@ -1,0 +1,50 @@
+.card {
+  width: 14rem;
+  height: 11rem;
+  background-color: hsl(15, 100%, 70%);
+  border-radius: 12px;
+}
+
+.image-container {
+  height: 2.5rem;
+  background-color: hsl(15, 100%, 70%);
+  background-image: url(/assets/icon-work.svg);
+  background-repeat: no-repeat;
+  background-position-x: 130px;
+  background-position-y: center;
+  border-radius: 0 0 -50px -50px;
+  border-radius: 12px;
+}
+
+.info-container {
+  width: 100%;
+  border-radius: 14px;
+  height: 100%;
+  background-color: hsl(235, 46%, 20%);
+}
+
+.activity-name {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 22px 0px 22px;
+}
+.activity-name > p {
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+}
+.activity-hours {
+  padding: 22px;
+}
+.activity-hours > .p1 {
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-size: xxx-large;
+  margin-bottom: 9px;
+}
+.activity-hours > .p2 {
+  color: #bbc0ff;
+  font-family: "Rubik", sans-serif;
+  font-size: 13px;
+}

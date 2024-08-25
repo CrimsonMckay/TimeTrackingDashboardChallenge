@@ -1,0 +1,60 @@
+.profile-container {
+  width: 14rem;
+  height: 28.5rem;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 12px;
+  clip-path: border-box;
+}
+.profile-top {
+  width: 100%;
+  height: 70%;
+  border-radius: 0 0 12px 12px;
+  background-color: hsl(246, 80%, 60%);
+}
+.profile {
+  flex-grow: 0.2;
+}
+.profile > img {
+  width: 4rem;
+  height: 4rem;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+.profile-info-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+.profile-name > p:first-child {
+  color: #bbc0ff;
+  font-family: "Rubik", sans-serif;
+  font-size: 13px;
+}
+.profile-name p:nth-child(2),
+p:nth-child(3) {
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-size: xx-large;
+}
+.profile-bottom {
+  justify-content: space-evenly;
+  display: flex;
+  padding: 18px 30px 30px 30px;
+  height: 20%;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.profile-bottom > p {
+  color: #bbc0ff;
+  font-family: "Rubik", sans-serif;
+  font-size: 13px;
+}
+.profile-bottom > p:nth-child(2) {
+  color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  font-size: 13px;
+}

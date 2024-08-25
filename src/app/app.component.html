@@ -1,0 +1,14 @@
+<main class="main">
+  <div class="main-sub">
+    <div class="profile-content">
+      <app-profile-card></app-profile-card>
+    </div>
+    <div class="content">
+      @for (item of [1,2,3,4,5,6]; track $index) {
+      <app-track-card></app-track-card>
+      }
+    </div>
+  </div>
+</main>
+
+<router-outlet />
