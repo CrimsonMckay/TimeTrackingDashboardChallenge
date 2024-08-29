@@ -1,13 +1,19 @@
-<div class="card">
-  <div class="image-container"></div>
+<div class="card" [ngStyle]="{ 'background-color': tracker.color }">
+  <div
+    class="image-container"
+    [ngStyle]="{
+      'background-color': tracker.color,
+      'background-image': 'url(' + tracker.backgroundImage + ')'
+    }"
+  ></div>
   <div class="info-container">
     <div class="activity-name">
-      <p>Work</p>
+      <p>{{ tracker.activity }}</p>
       <img src="/assets/icon-ellipsis.svg" alt="ellipsis" />
     </div>
     <div class="activity-hours">
-      <p class="p1">32hrs</p>
-      <p class="p2">Last Week - 36hrs</p>
+      <p class="p1">{{ tracker.activityTime }}</p>
+      <p class="p2">Last Week - {{ tracker.lastWeekTime }}</p>
     </div>
   </div>
 </div>

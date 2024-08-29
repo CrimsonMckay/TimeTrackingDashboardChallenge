@@ -30,14 +30,14 @@
 
 .profile-name > p:first-child {
   color: #bbc0ff;
-  font-family: "Rubik", sans-serif;
-  font-size: 13px;
+  font-weight: 400;
 }
 .profile-name p:nth-child(2),
 p:nth-child(3) {
   color: white;
   font-family: "Rubik", sans-serif;
   font-size: xx-large;
+  font-weight: 300;
 }
 .profile-bottom {
   justify-content: space-evenly;
@@ -50,11 +50,11 @@ p:nth-child(3) {
 
 .profile-bottom > p {
   color: #bbc0ff;
-  font-family: "Rubik", sans-serif;
   font-size: 13px;
+  font-weight: 300;
 }
 .profile-bottom > p:nth-child(2) {
   color: #ffffff;
-  font-family: "Rubik", sans-serif;
   font-size: 13px;
+  font-weight: 300;
 }

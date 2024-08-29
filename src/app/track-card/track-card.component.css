@@ -8,7 +8,6 @@
 .image-container {
   height: 2.5rem;
   background-color: hsl(15, 100%, 70%);
-  background-image: url(/assets/icon-work.svg);
   background-repeat: no-repeat;
   background-position-x: 130px;
   background-position-y: center;
@@ -31,7 +30,6 @@
   padding: 22px 22px 0px 22px;
 }
 .activity-name > p {
-  font-size: 18px;
   font-family: "Rubik", sans-serif;
 }
 .activity-hours {
@@ -41,6 +39,7 @@
   color: white;
   font-family: "Rubik", sans-serif;
   font-size: xxx-large;
+  font-weight: 300;
   margin-bottom: 9px;
 }
 .activity-hours > .p2 {
